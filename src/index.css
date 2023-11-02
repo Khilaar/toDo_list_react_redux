@@ -87,3 +87,19 @@ button:focus-visible {
 .inputAndButton input{
   height: 50px;
 }
+
+.allLists {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.allContainer {
+  width: 20vw;
+}
+.allContainer {
+  width: 20vw;
+}
+.allContainer {
+  width: 20vw;
+}
