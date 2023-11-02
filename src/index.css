@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: 400;
+  
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -60,7 +61,7 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   background-color: #3b3b3b;
-  border-radius: 20px;
+  border-radius: 10px;
   gap: 10px;
   padding-left: 5px;
   margin-bottom: 10px;
@@ -86,7 +87,10 @@ button:focus-visible {
 
 .inputAndButton input{
   height: 50px;
+  border-radius: 10px;
+  border-style: none;
 }
+
 
 .allLists {
   display: flex;
@@ -94,6 +98,15 @@ button:focus-visible {
   width: 80vw;
 }
 
+.allLists h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #3b3b3b;
+  height: 50px;
+  align-items: center;
+  border-radius: 10px;
+}
+
 .allContainer {
   width: 20vw;
 }
@@ -102,4 +115,23 @@ button:focus-visible {
 }
 .allContainer {
   width: 20vw;
+}
+
+.upperPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  width: 50%;
+  align-self: center;
+}
+
+.upperPart h1{
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }

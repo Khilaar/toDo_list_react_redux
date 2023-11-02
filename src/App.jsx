@@ -25,14 +25,15 @@ function App() {
 
   return (
     <>
+      <div className='upperPart'>
       <h1>Todo List</h1>
-
       <div className="inputAndButton">
         <input type="text" placeholder="Todo" value={todoText} onChange={handleChange} />
         <button onClick={() => {
           dispatch(todo(todoText));
           setTodoText('');
         }}>Add Todo</button>
+      </div>
       </div>
 
       <div className='allLists'>
